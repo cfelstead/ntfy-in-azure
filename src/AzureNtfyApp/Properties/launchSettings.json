@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AzureNtfyApp": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

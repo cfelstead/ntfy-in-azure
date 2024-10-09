@@ -1,0 +1,10 @@
+@server=http://ntfyappdns.uksouth.azurecontainer.io:8080
+
+
+POST {{server}}/mytopic HTTP/1.1
+Authorization: Bearer tk_owc11uzl080ag1yls575iz18yksjc
+Tags: grin,skull
+Click: https://www.google.com
+Priority: 3
+
+Fresh start ping

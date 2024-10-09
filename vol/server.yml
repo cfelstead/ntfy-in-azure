@@ -1,0 +1,11 @@
+default-host: "http://ntfy-container-instance-name.uksouth.azurecontainer.io:8080"
+base-url: "http://ntfy-container-instance-name.uksouth.azurecontainer.io:8080"
+listen-http: ":8080"
+cache-file: "/app/ntfy-vol/cache.db"
+behind-proxy: true
+attachment-cache-dir: "/app/attachments"
+keepalive-interval: "45s"
+auth-file: "/app/ntfy-vol/auth.db"
+auth-default-access: "deny-all"
+web-root: "disable"
+upstream-base-url: "https://ntfy.sh"
